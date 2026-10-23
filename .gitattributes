@@ -1,0 +1,12 @@
+# 保持 shell 脚本 LF：Windows 检出后 CRLF 会让 #!/bin/sh 报 bad interpreter
+*.sh text eol=lf
+wnw text eol=lf
+refs text eol=lf
+impeccable text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 二进制/大块数据不要动
+*.json -text
+*.js -text
+*.png -text
