@@ -10,6 +10,7 @@
 |---|---|
 | [`workbuddy-history-recovery`](./workbuddy-history-recovery) | 🔍 **会话记录找回与迁移**。换号 / 重装后历史列表为空？记录其实都在本机，此工具把它们迁回当前账号名下，并支持恢复误删、导出 Markdown、数据库备份还原 |
 | [`webnovel-writer`](./webnovel-writer) | ✍️ **长篇中文网文创作**。执行层（建书/规划卷/写章/审查/查设定/润色）+ 编排层（无人值守连写整卷）合包，内置一致性合同树、五维事实审查、7 层 Anti-AI 规范、9 张题材写法数据表 |
+| [`impeccable`](./impeccable) | 🎨 **前端界面设计**。设计/重做/审查/审计/打磨/适配/动效/配色/排版，覆盖落地页、后台、仪表盘、组件、空状态。移植自 pbakaus/impeccable，已适配路径与子代理代劳模式 |
 
 ## 安装
 
@@ -52,7 +53,9 @@ workbuddy-skills/
 
 外层脚手架与自制技能：[MIT](./LICENSE)
 
-例外：`webnovel-writer` 移植自上游 GPL-3.0 项目，该目录单独适用 [GPL-3.0](./webnovel-writer/LICENSE)。
+例外：
+- `webnovel-writer` 移植自上游 GPL-3.0 项目，该目录单独适用 [GPL-3.0](./webnovel-writer/LICENSE)
+- `impeccable` 移植自上游 Apache-2.0 项目，该目录单独适用 [Apache-2.0](./impeccable/LICENSE)
 
 ## 新增技能
 
